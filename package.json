@@ -1,15 +1,11 @@
 {
-  "name": "shani-bot-web",
-  "version": "1.0.0",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
+  "name": "shani-bot-react",
+  "version": "2.0.0",
+  "main": "index.js",
+  "scripts": { "start": "node index.js" },
   "dependencies": {
-    "express": "^4.19.2",
-    "baileys": "^6.7.12"
+    "@whiskeysockets/baileys": "^6.7.12",
+    "pino": "^9.0.0"
   },
-  "engines": {
-    "node": "24.x"
-  }
+  "engines": { "node": "24.x" }
 }
