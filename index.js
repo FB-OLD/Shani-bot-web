@@ -9,7 +9,7 @@ const REACTIONS = [
 ];
 
 // 2. OWNER NUMBER - یہ Admin ہیں۔ صرف یہ!pair جیسی کمانڈ چلا سکیں گے
-const OWNER = ['923001234567']; // اپنا نمبر ڈالو بغیر + کے
+const OWNER = ['923060725589']; // اپنا نمبر ڈالو بغیر + کے
 
 async function connectBot() {
     const { state, saveCreds } = await useMultiFileAuthState('auth_info_baileys');
